@@ -1,7 +1,7 @@
 # ETL-Project
 
 
-This is a self serve automated form filler for my rock climbing gym Earth Treks. It allows a user to schedule and automated booking that executes right when they become available. (Reservation slots fill up too fast when they become available and I can never get a spot in time.)
+This is a self serve automated form filler for my rock climbing gym Earth Treks. It allows a user to schedule an automated booking that executes right when they become available. (Reservation slots fill up too fast when they become available and I can never get a spot in time.)
 
 I used lxml to scrape the required xpaths to inform selenium automation how to perform actions and navigate the page. The paths are then stored into pandas dataframes and are reference-able by name of the element they correspond to. E.G. "booking_time_path" = '//*[@id="offering-page-select-events-table"]/tbody/tr[2]/td[4]/a'
 
