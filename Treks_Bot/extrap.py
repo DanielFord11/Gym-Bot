@@ -37,7 +37,7 @@ def main():
     DB_USER = "postgres"
     DB_NAME="bookings"
     connect_timeout="10"
-    DB_PASS="Give100%allday"
+    DB_PASS="place_holder"
     conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     cur.execute("SELECT * FROM booking_requests")
