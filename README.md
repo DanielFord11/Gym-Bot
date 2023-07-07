@@ -1,4 +1,4 @@
-# ETL-Project
+# Gym Bot 🤖
 
 
 This is a self serve automated form filler for my rock climbing gym Earth Treks. It allows a user to schedule an automated booking that executes right when they become available. (Reservation slots fill up too fast when they become available and I can never get a spot in time.)
